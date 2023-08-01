@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "10862777026",
+    "project_id": "atopa-tfg",
+    "storage_bucket": "atopa-tfg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10862777026:android:b75f8f94532ad88f96215b",
+        "android_client_info": {
+          "package_name": "com.example.atopa_app_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10862777026-190o7jhbaf1sjmbdmbkg2d48q5q1imbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE_RMquLneUqauXdwx1HP8MCMA_MCL7H0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10862777026-190o7jhbaf1sjmbdmbkg2d48q5q1imbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+Center(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const SizedBox(
+                height: 20,
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, 'classes');
+                },
+                child: SizedBox(
+                  child: Center(
+                    child: Text(
+                      'Alumnos',
+                      style: const TextStyle(color: Colors.white, fontSize: 20),
+                    ),
+                  ),
+                  width: double.infinity,
+                  height: 50,
+                ),
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, 'tests');
+                },
+                child: SizedBox(
+                  child: Center(
+                    child: Text(
+                      'Cuestionarios',
+                      style: const TextStyle(color: Colors.white, fontSize: 20),
+                    ),
+                  ),
+                  width: double.infinity,
+                  height: 50,
+                ),
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, 'micuenta');
+                },
+                child: SizedBox(
+                  child: Center(
+                    child: Text(
+                      'Mi cuenta',
+                      style: const TextStyle(color: Colors.white, fontSize: 20),
+                    ),
+                  ),
+                  width: double.infinity,
+                  height: 50,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
